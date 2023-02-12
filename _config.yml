@@ -28,7 +28,7 @@ highlighter: rouge
 plugins:
   - jekyll-mermaid
 
-# include:
+include:
    - README.md
 
 # Mermaid configuration
