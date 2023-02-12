@@ -1,12 +1,34 @@
+# plugins:
+#   - jekyll-relative-links
+# relative_links:
+#   enabled: true
+#   collections: true
+# include:
+#   - README.md
+# mermaid:
+#   # Version of mermaid library
+#   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+# #   version: "9.1.3"
+#   src: 'mermaid.min.js'
+
+
+
+# Jekyll Configuration
+
+# Site settings
+title: Your Site Title
+email: your@email.com
+description: "A brief description of your site"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
 plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: true
-include:
-  - README.md
+  - jekyll-mermaid
+
+# Mermaid configuration
 mermaid:
-  # Version of mermaid library
-  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-#   version: "9.1.3"
-  src: 'mermaid.min.js'
+  theme: default
+  logLevel: error
