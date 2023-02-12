@@ -30,6 +30,7 @@ plugins:
 
 include:
    - README.md
+   - index.html
 
 # Mermaid configuration
 mermaid:
