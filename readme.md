@@ -1,4 +1,4 @@
-::: mermaid
+```mermaid
 gantt
 dateFormat  YYYY-MM-DD
 title CV-2023 PLANNING
@@ -33,7 +33,7 @@ title CV-2023 PLANNING
     Describe gantt syntax               :after doc1, 3d
     Add gantt diagram to demo page      : 20h
     Add another diagram to demo page    : 48h   
-:::
+```
 
 <!-- %% Example with selection of syntaxes -->
 <!-- gantt
