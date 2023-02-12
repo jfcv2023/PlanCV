@@ -35,3 +35,4 @@ include:
 mermaid:
   theme: default
   logLevel: error
+  version: "9.1.3"
